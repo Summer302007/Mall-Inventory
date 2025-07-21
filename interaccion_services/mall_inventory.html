@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MALL INVENTORY</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Inventory</h1>
+  </header>
+
+  <p>Welcome to my Mall inventory</p>
+
+  <!-- FORM ADD -->
+  <form id="Adding" class="formulary">
+    <h2>Product Adding</h2>
+    <label for="addName">Product</label>
+    <input id="addName" type="text" placeholder="Insert the product name" required>
+    <label for="addPrice">Price</label>
+    <input id="addPrice" type="text" placeholder="Insert the product price" required>
+    <button id="Add" type="submit">Submit new product</button>
+  </form>
+
+  <!-- FORM EDIT -->
+  <form id="edit" class="formulary">
+    <h2>Edit product</h2>
+    <label for="editName">Product</label>
+    <input id="editName" type="text" placeholder="Insert the product name" required>
+    <label for="editPrice">Price</label>
+    <input id="editPrice" type="text" placeholder="Insert the product price" required>
+    <button id="Change" type="submit">Submit</button>
+  </form>
+
+  <!-- FORM DELETE -->
+  <form id="delete" class="formulary">
+    <h2>Delete product</h2>
+    <label for="deleteName">Product</label>
+    <input id="deleteName" type="text" placeholder="Insert the product name" required>
+    <button id="Eliminate" type="submit">Submit</button>
+  </form>
+
+  <!-- PRODUCT TABLE -->
+  <table>
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody id="inventoryTable">
+      <!-- Inventory items will be dynamically inserted here with the JavaScript -->
+    </tbody>
+  </table>
+
+  <script src="gestion_api.js"></script>
+</body>
+</html>

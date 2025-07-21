@@ -1,0 +1,21 @@
+{
+  "varietyProducts": [
+    {
+      "id": 1, 
+      "name": "Chocolatina", 
+      "price": 2000
+    },
+
+    {
+      "id": 2, 
+      "name": "Horno", 
+      "price": 400000
+    },
+
+    {
+      "id": 3, 
+      "name": "Cuaderno", 
+      "price": 12000
+    }
+  ]
+}
